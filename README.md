@@ -4,8 +4,8 @@ A node module for easy access of oxford-dictionary api
 Usage:
   var Dictionary = require("oxford-dictionary-api");
   
-  var app_id = <your oxford-account app id>;
-  var app_key = <your oxford-account app key>;
+  var app_id = "your oxford-account app id";
+  var app_key = "your oxford-account app key";
   
   var dict = new Dictionary(app_id,app_key);
 
