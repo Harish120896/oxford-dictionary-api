@@ -1,0 +1,26 @@
+{
+  "name": "oxford-dictionary-api",
+  "version": "1.0.0",
+  "description": "A node module for easy access of oxford-dictionary-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harish120896/oxford-dictionary-api.git"
+  },
+  "keywords": [
+    "dictionary",
+    "english",
+    "oxford-dictionary",
+    "meaning",
+    "words"
+  ],
+  "author": "Harish Kumar S <harishkumar120896@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harish120896/oxford-dictionary-api/issues"
+  },
+  "homepage": "https://github.com/Harish120896/oxford-dictionary-api#readme"
+}
