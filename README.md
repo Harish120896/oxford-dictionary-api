@@ -15,7 +15,7 @@ Usage:
   });
   
 Response:
-  Response is a json object from which you can access the details required.
+  Response is a json object from which you can access the required details such as definition,type,audio files,example statements.
   
   {
   "metadata": {
