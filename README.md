@@ -2,6 +2,7 @@
 A node module for easy access of oxford-dictionary api
 
 Usage:
+```  
   var Dictionary = require("oxford-dictionary-api");
   
   var app_id = "your oxford-account app id";
@@ -295,4 +296,4 @@ Response:
     }
   ]
 }
-
+```
