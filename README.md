@@ -1,23 +1,19 @@
 # oxford-dictionary-api
 A node module for easy access of oxford-dictionary api
 
-Usage:
-```  
-  var Dictionary = require("oxford-dictionary-api");
-  
-  var app_id = "your oxford-account app id";
-  var app_key = "your oxford-account app key";
-  
-  var dict = new Dictionary(app_id,app_key);
+### Usage
+```javascript
+const Dictionary = require('oxford-dictionary-api');
 
-  dict.find("ace",function(error,data){
-    if(error) return console.log(error);
-    console.log(data);
-  });
-  
-Response:
-  Response is a json object from which you can access the required details such as definition,type,audio files,example statements.
-  
+const app_id = 'your oxford-account app id';
+const app_key = 'your oxford-account app key';
+const dict = new Dictionary(app_id, app_key);
+dict.find('ace', (error, data) => { if (error) return console.log(error); console.log(data); });
+```
+
+Response is a JSON object from which you can access the required details such as definition, type, audio files, example statements:
+
+```json
   {
   "metadata": {
     "provider": "Oxford University Press"
